@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e69292;
+}
+
+header{
+    background-color: #fd6060;
+}
+
+.div_header{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-left: 30vw;
+}
+
+.img_logo_header{
+    width: 80px;
+    margin-left: 5vw;
+}
+
+hr{
+    background-color: black;
+    height: 1px;
+    width: 60%;
+    margin: auto;
+    border-style: none;
+}
+
+nav{
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botao_menu{
+    border-style: none;
+    background-color:#fd6060;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 0.5%;
+    padding: 0.5%;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+.botao_menu:hover{
+    background-color: #f3e0e0;
+}
+
+.img_primer{
+    width: 100%;
+}
+.Alinhamentoright {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.TextBlockLeft {
+    flex: 1;
+    padding: 10px; /* Adicionando padding uniforme */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.blocoIma {
+    flex: 1;
+    text-align: right;
+}
+
+.blocoIma img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+.TextBlockRight {
+    flex: 1;
+    padding: 10px; /* Adicionando padding uniforme */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.blocoImaLeft {
+    flex: 1;
+    text-align: left;
+}
+
+.blocoImaLeft img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+ }
+ .Alinhamentoleft {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    flex-direction: row-reverse;
+}
